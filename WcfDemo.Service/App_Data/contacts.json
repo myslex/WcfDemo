@@ -1,0 +1,20 @@
+﻿[
+  {
+    "Id": "a19779cf-68a6-4dbc-acc6-fbd0e7b5f613",
+    "FirstName": "Alexander",
+    "LastName": "Woldner",
+    "PhoneNumber": "11123"
+  },
+  {
+    "Id": "d780bc30-6ba1-4208-9049-5167211de8e3",
+    "FirstName": "Thomas",
+    "LastName": "Vistrand",
+    "PhoneNumber": "2222"
+  },
+  {
+    "Id": "5b8c24ac-f43a-491a-be5d-81b4ad9fecb8",
+    "FirstName": "Fredrik",
+    "LastName": "Sternvad",
+    "PhoneNumber": "33333"
+  }
+]

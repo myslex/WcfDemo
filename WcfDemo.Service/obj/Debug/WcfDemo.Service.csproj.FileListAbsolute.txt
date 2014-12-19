@@ -1,0 +1,8 @@
+C:\Users\m41n\Documents\GitHub\csharp-projects\WcfDemo\WcfDemo.Service\bin\WcfDemo.Service.dll.config
+C:\Users\m41n\Documents\GitHub\csharp-projects\WcfDemo\WcfDemo.Service\bin\WcfDemo.Service.dll
+C:\Users\m41n\Documents\GitHub\csharp-projects\WcfDemo\WcfDemo.Service\bin\WcfDemo.Service.pdb
+C:\Users\m41n\Documents\GitHub\csharp-projects\WcfDemo\WcfDemo.Service\obj\Debug\WcfDemo.Service.csprojResolveAssemblyReference.cache
+C:\Users\m41n\Documents\GitHub\csharp-projects\WcfDemo\WcfDemo.Service\obj\Debug\WcfDemo.Service.dll
+C:\Users\m41n\Documents\GitHub\csharp-projects\WcfDemo\WcfDemo.Service\obj\Debug\WcfDemo.Service.pdb
+C:\Users\m41n\Documents\GitHub\csharp-projects\WcfDemo\WcfDemo.Service\bin\Newtonsoft.Json.dll
+C:\Users\m41n\Documents\GitHub\csharp-projects\WcfDemo\WcfDemo.Service\bin\Newtonsoft.Json.xml

@@ -1,0 +1,50 @@
+﻿@model WcfDemo.Web.Models.ContactViewModel
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    @Html.HiddenFor(x => Model.FirstName)
+    @Html.HiddenFor(x => Model.LastName)
+    @Html.HiddenFor(x => Model.PhoneNumber)
+
+    <div class="form-horizontal">
+        <h4>Contact</h4>
+        <hr />
+        <div class="form-group">
+            @Html.LabelFor(x => Model.FirstName, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(x => Model.FirstName, new { @class = "form-control", @disabled = true, placeholder = "Firstname" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(x => Model.LastName, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(x => Model.LastName, new { @class = "form-control", @disabled = true, placeholder = "LastName" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(x => Model.PhoneNumber, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(x => Model.PhoneNumber, new { @class = "form-control", @disabled = true, placeholder = "PhoneNumber" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Delete" class="btn btn-danger" />
+                @Html.ActionLink("Cancel", "Index", null, new { @class = "btn btn-default" })
+            </div>
+        </div>
+    </div>
+}
